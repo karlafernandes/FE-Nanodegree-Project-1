@@ -92,7 +92,7 @@ a.dropdown-toggle .glyphicon {
 	margin-top: 60px;
 }
 #services .item {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 #services h3 {
 	font-size: 18px;
@@ -200,27 +200,30 @@ footer .container {
 }
 
 
-
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	#banner {
 		display:none;
 	}	
 	#services .row {
 		margin-top: 0px;
 	}
+	#services a,
+	#services a:hover {
+		margin-top: 10px;
+	}
 	#services .item {
-		margin-bottom: 10px;
+		display:block;
+		clear:both;
 	}
-	#services .item.ultimo a {
-		border-bottom: 0px !important;
-		margin-bottom: 0px;
-	}
-	#work .portfolio h3,
-	#services .item a {
-		padding-bottom: 20px;
+	#work .portfolio h3 {
 		border-bottom: 1px dashed #dedede;
 	}
-	#services .item a {
+	#services .item {
+		padding-bottom: 15px;
 		border-bottom: 1px dashed #000;
 	}
+	#services .item.ultimo {
+		border-bottom: 0px !important;
+		padding-bottom: 0px;
+	}	
 }
