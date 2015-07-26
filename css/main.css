@@ -14,6 +14,70 @@ header img.brand {
 }
 
 
+
+
+.nav {
+	margin-top: 60px;
+}	
+.nav > li {
+	border-top: 6px solid transparent;
+	margin-right: 25px;
+	padding: 10px;
+}
+.nav > a,
+.nav > li a,
+.nav > a:hover,
+.nav > li a:hover {
+	color: #000;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size: 16px;
+	background-color: transparent;
+	padding: 0px;
+}
+.nav > a:hover,
+.nav > li a:hover {
+	color: #e6001c;
+}
+.nav > li:hover,
+.nav > li.active:hover,
+.nav > li.active {
+	border-top: 6px solid #e6001c;
+	color: #e6001c;
+	background-color: transparent;
+}
+.nav > li.active a:hover,
+.nav > li.active a {
+	color: #e6001c;
+	background-color: transparent;
+}
+a.dropdown-toggle .glyphicon {
+	font-size:10px;
+	color: #000 !important;
+}
+.nav > li > a:hover, .nav > li > a:focus, 
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus,
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: transparent;
+}
+
+.dropdown-menu > li > a, 
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	font-size:14px;	
+	padding: 5px 10px 5px 10px;
+	border: 0px;
+	background-color: transparent;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #e6001c;
+	background-image: none !important;
+}
+
+
+
 #banner {
 	background-image: url(../images/banner_background.jpg);
 	background-repeat: repeat-x;
