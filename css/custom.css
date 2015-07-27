@@ -79,6 +79,36 @@ a.dropdown-toggle .glyphicon {
 
 
 
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+	display: none;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+
+
+
 #banner {
 	background-image: url(../images/banner_background.jpg);
 	background-repeat: repeat-x;
@@ -201,7 +231,11 @@ footer .container {
 }
 
 
+
 @media screen and (max-width: 768px) {
+	.navbar, .navbar-inverse {
+		display: block;
+	}	
 	#banner {
 		display:none;
 	}	
