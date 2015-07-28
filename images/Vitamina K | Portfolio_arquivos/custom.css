@@ -78,6 +78,39 @@ a.dropdown-toggle .glyphicon {
 }
 
 
+
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	display: none;
+	border: 1px solid red;
+	width: 100%;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+
+
+
 #banner {
 	background-image: url(../images/banner_background.jpg);
 	background-repeat: repeat-x;
@@ -202,25 +235,10 @@ footer .container {
 	color: #fff;
 }
 
-#menu {
-	display: none;
-	margin-bottom: 0px;
-}
 
-#menu ul {
-	margin-top: 0px;
-}
 
-#menu li {
-	border-top: 0px;
-	display: block;
-}
-#menu li a {
-	border-top: 0px;
-	display: block;
-}
 @media screen and (max-width: 768px) {
-	#menu {
+	.navbar, .navbar-inverse {
 		display: block;
 	}	
 	#banner {
