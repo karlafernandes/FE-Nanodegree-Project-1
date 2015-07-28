@@ -6,6 +6,8 @@ img, embed, object, video {
 	max-width:100%;
 }
 
+
+/* Header */
 header {
 	border-top:50px solid #000;
 }
@@ -15,10 +17,10 @@ header img.brand {
 
 
 
-
+/* Nav */
 .nav {
 	margin-top: 60px;
-}	
+}
 .nav > li {
 	border-top: 6px solid transparent;
 	margin-right: 25px;
@@ -33,7 +35,7 @@ header img.brand {
 	font-weight:bold;
 	font-size: 16px;
 	background-color: transparent;
-	padding: 0px;
+	padding: 0;
 }
 .nav > a:hover,
 .nav > li a:hover {
@@ -55,18 +57,18 @@ a.dropdown-toggle .glyphicon {
 	font-size:10px;
 	color: #000 !important;
 }
-.nav > li > a:hover, .nav > li > a:focus, 
+.nav > li > a:hover, .nav > li > a:focus,
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus,
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
 	background-color: transparent;
 }
 
-.dropdown-menu > li > a, 
+.dropdown-menu > li > a,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
 	padding: 5px 10px 2px 10px;
-	border: 0px;
+	border: 0;
 	font-weight: normal;
 	text-transform: none;
 	background-color: transparent;
@@ -77,13 +79,34 @@ a.dropdown-toggle .glyphicon {
 	background-image: none !important;
 }
 
+/* Menu mobile */
+#menu {
+	display: none;
+	margin-bottom: 0;
+}
 
+#menu ul {
+	margin-top: 0;
+}
+
+#menu li {
+	border-top: 0;
+	display: block;
+}
+#menu li a {
+	border-top: 0;
+	display: block;
+}
+
+
+/* Banner */
 #banner {
 	background-image: url(../images/banner_background.jpg);
 	background-repeat: repeat-x;
 }
 
 
+/* Services */
 #services {
 	display: block;
 	background-color:#e6001c;
@@ -117,7 +140,7 @@ a.dropdown-toggle .glyphicon {
 	width: 40px;
 	height: 40px;
 	display: block;
-	float: left;	
+	float: left;
 	margin: auto 10px auto auto;
 	text-align: center;
 }
@@ -130,8 +153,9 @@ a.dropdown-toggle .glyphicon {
 	line-height: 1.4em;
 }
 #services a,
-#services a:hover {
-	margin-top: 15px;	
+#services a:hover,
+#services a:focus {
+	margin-top: 15px;
 	color: #000;
 	font-size: 15px;
 	display:block;
@@ -148,6 +172,7 @@ a.dropdown-toggle .glyphicon {
 }
 
 
+/* Work */
 #work .container {
 	margin-top: 60px;
 }
@@ -167,14 +192,15 @@ a.dropdown-toggle .glyphicon {
 	text-transform: uppercase;
 	color: #666;
 	padding: 15px;
-	margin: 0px;
+	margin: 0;
 }
+#work a h3,
 .modal h3 {
 	font-size:20px;
-	padding: 0px;
+	padding: 10px;
 }
-h3.modal-title b,
-#work h3 b {
+h3.modal-title > b,
+#work h3 > b {
 	font-size: 14px;
 	font-weight: bold;
 	color: #e6001c;
@@ -186,13 +212,16 @@ h3.modal-title b,
 	color: #e6001c;
 	padding-left: 3px;
 }
+#work a {
+	color: #666 !important;
+}
 #work a:hover {
 	display: block;
 	background-color: #ededed !important;
 	text-decoration: none;
 }
 
-
+/* Footer */
 footer {
 	display: block;
 	background-color: #000;
@@ -202,32 +231,14 @@ footer .container {
 	color: #fff;
 }
 
-#menu {
-	display: none;
-	margin-bottom: 0px;
-}
 
-#menu ul {
-	margin-top: 0px;
-}
-
-#menu li {
-	border-top: 0px;
-	display: block;
-}
-#menu li a {
-	border-top: 0px;
-	display: block;
-}
+/* Small Screens */
 @media screen and (max-width: 768px) {
 	#menu {
 		display: block;
-	}	
-	#banner {
-		display:none;
-	}	
+	}
 	#services .row {
-		margin-top: 0px;
+		margin-top: 0;
 	}
 	#services a,
 	#services a:hover {
@@ -245,7 +256,7 @@ footer .container {
 		border-bottom: 1px dashed #000;
 	}
 	#services .item.ultimo {
-		border-bottom: 0px !important;
-		padding-bottom: 0px;
-	}	
+		border-bottom: 0 !important;
+		padding-bottom: 0;
+	}
 }
