@@ -9,16 +9,14 @@ video {
 	max-width: 100%;
 }
 
-
 /* Header */
 header {
 	border-top: 50px solid #000;
 }
+
 header img.brand {
 	margin: 40px 20px 40px 20px;
 }
-
-
 
 /* Nav */
 .nav {
@@ -91,11 +89,9 @@ a.dropdown-toggle .glyphicon {
 /* Menu mobile */
 #menu {
 	display: none;
-	margin-bottom: 0;
 }
 
 #menu ul {
-	margin-top: 0;
 }
 
 #menu li {
@@ -107,13 +103,11 @@ a.dropdown-toggle .glyphicon {
 	display: block;
 }
 
-
 /* Banner */
 .banner {
 	background-image: url(../images/banner_background.jpg);
 	background-repeat: repeat-x;
 }
-
 
 /* Services */
 #services {
@@ -121,10 +115,8 @@ a.dropdown-toggle .glyphicon {
 	background-color: #e6001c;
 }
 #services .row {
-	margin-top: 60px;
 }
 #services .item {
-	margin-bottom: 20px;
 }
 #services h3 {
 	font-size: 18px;
@@ -134,10 +126,8 @@ a.dropdown-toggle .glyphicon {
 	display: block;
 	clear: both;
 	height: 40px;
-	margin-bottom: 15px;
 }
 #services h3 strong {
-	padding-top: 10px;
 	display: block;
 }
 #services .icon {
@@ -154,7 +144,6 @@ a.dropdown-toggle .glyphicon {
 	text-align: center;
 }
 #services .icon img {
-	margin-top: 8px;
 }
 #services p {
 	color: #fff;
@@ -164,7 +153,6 @@ a.dropdown-toggle .glyphicon {
 #services a,
 #services a:hover,
 #services a:focus {
-	margin-top: 15px;
 	color: #000;
 	font-size: 15px;
 	display: block;
@@ -180,20 +168,16 @@ a.dropdown-toggle .glyphicon {
 	font-size: 11px;
 }
 
-
 /* Work */
 #work .container {
-	margin-top: 60px;
 }
 #work .portfolio {
-	margin-bottom: 50px;
 }
 #work h2 {
 	font-size: 25px;
 	text-transform: uppercase;
 	color: #000;
 	font-weight: bold;
-	margin-bottom: 20px;
 }
 .modal h3,
 #work h3 {
@@ -219,7 +203,6 @@ h3.modal-title > b,
 	font-size: 12px;
 	font-weight: bold;
 	color: #e6001c;
-	padding-left: 3px;
 }
 #work a {
 	color: #666 !important;
@@ -240,18 +223,15 @@ footer .container {
 	color: #fff;
 }
 
-
 /* Small Screens */
 @media screen and (max-width: 768px) {
 	#menu {
 		display: block;
 	}
 	#services .row {
-		margin-top: 0;
 	}
 	#services a,
 	#services a:hover {
-		margin-top: 10px;
 	}
 	#services .item {
 		display: block;
@@ -261,11 +241,9 @@ footer .container {
 		border-bottom: 1px dashed #dedede;
 	}
 	#services .item {
-		padding-bottom: 15px;
 		border-bottom: 1px dashed #000;
 	}
 	#services .item.ultimo {
 		border-bottom: 0 !important;
-		padding-bottom: 0;
 	}
 }
