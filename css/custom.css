@@ -39,26 +39,31 @@ header img.brand {
 	background-color: transparent;
 	padding: 0;
 }
+
 .nav > a:hover,
-.nav > li > a:hover {
+.nav > li a:hover {
 	color: #e6001c;
 }
-.nav > li > a:hover,
+
+.nav > li:hover,
 .nav > li.active a:hover,
 .nav > li.active {
 	border-top: 6px solid #e6001c;
 	color: #e6001c;
 	background-color: transparent;
 }
+
 .nav > li.active a:hover,
 .nav > li.active a {
 	color: #e6001c;
 	background-color: transparent;
 }
+
 a.dropdown-toggle .glyphicon {
 	font-size: 10px;
 	color: #000 !important;
 }
+
 .nav > li > a:hover,
 .nav > li > a:focus,
 .nav-pills > li.active > a,
@@ -89,15 +94,18 @@ a.dropdown-toggle .glyphicon {
 /* Menu mobile */
 #menu {
 	display: none;
+	margin: 0;
 }
 
 #menu ul {
+	margin: 0 auto auto auto;
 }
 
 #menu li {
 	border-top: 0;
 	display: block;
 }
+
 #menu li a {
 	border-top: 0;
 	display: block;
@@ -114,10 +122,15 @@ a.dropdown-toggle .glyphicon {
 	display: block;
 	background-color: #e6001c;
 }
+
 #services .row {
+	margin: 60px auto auto auto;
 }
+
 #services .item {
+	margin: auto auto 20px auto;
 }
+
 #services h3 {
 	font-size: 18px;
 	font-weight: bold;
@@ -126,10 +139,14 @@ a.dropdown-toggle .glyphicon {
 	display: block;
 	clear: both;
 	height: 40px;
+	margin: auto auto 15px auto;
 }
+
 #services h3 strong {
+	padding: 10px auto auto auto;
 	display: block;
 }
+
 #services .icon {
 	-webkit-border-radius: 40px;
 	-moz-border-radius: 40px;
@@ -143,42 +160,55 @@ a.dropdown-toggle .glyphicon {
 	margin: auto 10px auto auto;
 	text-align: center;
 }
+
 #services .icon img {
+	margin: 8px auto auto auto;
 }
+
 #services p {
 	color: #fff;
 	font-size: 16px;
 	line-height: 1.4em;
 }
+
 #services a,
 #services a:hover,
 #services a:focus {
+	margin: 15px auto auto auto;
 	color: #000;
 	font-size: 15px;
 	display: block;
 	float: left;
 	padding: 5px 10px 5px 10px;
 }
+
 #services a:hover {
 	background-color: #000;
 	color: #fff;
 	text-decoration: none;
 }
+
 #services a span {
 	font-size: 11px;
 }
 
 /* Work */
 #work .container {
+	margin: 60px auto auto auto;
 }
+
 #work .portfolio {
+	margin: auto auto 50px auto;
 }
+
 #work h2 {
 	font-size: 25px;
 	text-transform: uppercase;
 	color: #000;
 	font-weight: bold;
+	margin: auto auto 20px auto;
 }
+
 .modal h3,
 #work h3 {
 	font-size: 15px;
@@ -187,11 +217,13 @@ a.dropdown-toggle .glyphicon {
 	padding: 15px;
 	margin: 0;
 }
+
 #work a h3,
 .modal h3 {
 	font-size: 20px;
 	padding: 10px;
 }
+
 h3.modal-title > b,
 #work h3 > b {
 	font-size: 14px;
@@ -199,14 +231,18 @@ h3.modal-title > b,
 	color: #e6001c;
 	display: block;
 }
+
 #work h3 span {
 	font-size: 12px;
 	font-weight: bold;
 	color: #e6001c;
+	padding: auto auto auto 3px;
 }
+
 #work a {
 	color: #666 !important;
 }
+
 #work a:hover {
 	display: block;
 	background-color: #ededed !important;
@@ -218,6 +254,7 @@ footer {
 	display: block;
 	background-color: #000;
 }
+
 footer .container {
 	padding: 20px;
 	color: #fff;
@@ -225,25 +262,37 @@ footer .container {
 
 /* Small Screens */
 @media screen and (max-width: 768px) {
+	
 	#menu {
 		display: block;
 	}
+
 	#services .row {
+		margin: 40px 0 0px 0;
 	}
+
 	#services a,
 	#services a:hover {
+		margin: 10px;
 	}
+
 	#services .item {
 		display: block;
 		clear: both;
 	}
+
 	#work .portfolio h3 {
 		border-bottom: 1px dashed #dedede;
 	}
+
 	#services .item {
+		padding: auto auto 15px auto;
 		border-bottom: 1px dashed #000;
 	}
+
 	#services .item.ultimo {
 		border-bottom: 0 !important;
+		padding: auto auto 0 auto;
 	}
+
 }
