@@ -20,17 +20,15 @@ header img.brand {
 
 /* Nav */
 .nav {
-    margin: 60px 0 0 0;
+	margin: 60px 0 0 0;
 }
 
 .nav > li {
 	border-top: 6px solid transparent;
-	margin-right: 25px;
+	margin: 0 25px 0 0;
 	padding: 10px;
 }
-.nav > a,
 .nav > li a,
-.nav > a:hover,
 .nav > li a:hover {
 	color: #000;
 	text-transform: uppercase;
@@ -40,7 +38,6 @@ header img.brand {
 	padding: 0;
 }
 
-.nav > a:hover,
 .nav > li a:hover {
 	color: #e6001c;
 }
@@ -262,7 +259,7 @@ footer .container {
 
 /* Small Screens */
 @media screen and (max-width: 768px) {
-	
+
 	#menu {
 		display: block;
 	}
