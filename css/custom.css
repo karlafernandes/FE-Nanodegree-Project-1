@@ -143,7 +143,7 @@ a.dropdown-toggle .glyphicon {
 }
 
 #services h3 strong {
-	padding: 10px auto auto auto;
+	padding: 10px 0 0 0;
 	display: block;
 }
 
@@ -236,7 +236,7 @@ h3.modal-title > b,
 	font-size: 12px;
 	font-weight: bold;
 	color: #e6001c;
-	padding: auto auto auto 3px;
+	padding: 0 0 0 3px;
 }
 
 #work a {
@@ -286,13 +286,13 @@ footer .container {
 	}
 
 	#services .item {
-		padding: auto auto 15px auto;
+		padding: 0 0 15px 0;
 		border-bottom: 1px dashed #000;
 	}
 
 	#services .item.ultimo {
 		border-bottom: 0 !important;
-		padding: auto auto 0 auto;
+		padding: 0;
 	}
 
 }
