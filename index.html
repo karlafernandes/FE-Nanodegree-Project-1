@@ -32,285 +32,273 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<a href="#"><img src="images/brand.svg" class="img-responsive brand" alt="" /></a>
 				</div>
-				<!-- Hopefully a single version in the future with better design -->
-				<div class="menu col-md-8">
-					<div class="hidden-xs" data-example-id="nav-pills-with-dropdown">
-						<ul class="nav nav-pills">
-							<li role="presentation" class="active"><a href="#" class="nav-link">Home</a></li>
-							<li role="presentation"><a href="#" class="nav-link">Who am I?</a></li>
-							<li role="presentation" class="dropdown">
-								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-									What I do <span class="glyphicon glyphicon-chevron-down"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a href="#" class="subnav-link">Print</a></li>
-									<li><a href="#" class="subnav-link">E-mail Marketing</a></li>
-									<li><a href="#" class="subnav-link">Advertising</a></li>
-									<li><a href="#" class="subnav-link">Social Media</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#" class="subnav-link">More Services</a></li>
-								</ul>
-							</li>
-							<li role="presentation"><a href="#" class="nav-link">Portfolio</a></li>
-							<li role="presentation"><a href="#" class="nav-link">Let's talk!</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<nav id="menu" class="hidden-lg navbar navbar-inverse">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Who am I?</a></li>
-							<li><a href="#">What I do</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Let's talk!</a></li>
-						</ul>
+				<div class="menu col-md-9">
+				<!-- Navbar -->
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#" class="nav-link">Home</a></li>
+								<li><a href="#" class="nav-link">Who am I?</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What I do <span class="glyphicon glyphicon-chevron-down"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#" class="subnav-link">Print</a></li>
+										<li><a href="#" class="subnav-link">E-mail Marketing</a></li>
+										<li><a href="#" class="subnav-link">Advertising</a></li>
+										<li><a href="#" class="subnav-link">Social Media</a></li>
+										<li><a href="#" class="subnav-link">More Services</a></li>
+									</ul>
+								</li>
+								<li><a href="#" class="nav-link">Portfolio</a></li>
+								<li><a href="#" class="nav-link">Let's talk!</a></li>
+							</ul>
+						</div>
 					</div>
 				</nav>
 			</div>
 		</div>
-	</header>
-	<main>
-		<div class="banner">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<a href="#">
-							<picture>
-								<source media="(max-width: 800px)" srcset="images/banner_image_medium.png" />
-								<img src="images/banner_image.png" srcset="images/banner_image_medium.png 1x, images/banner_image.png 2x" class="img-responsive center-block" alt="Last Project: Daniela Bueb" />
-							</picture>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Modal Services -->
-		<div class="modal fade" id="services1" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-md" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h3 class="modal-title">Print</h3>
-					</div>
-					<div class="modal-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal fade" id="services2" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-md" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h3 class="modal-title">E-mail Marketing</h3>
-					</div>
-					<div class="modal-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal fade" id="services3" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-md" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h3 class="modal-title">Advertising</h3>
-					</div>
-					<div class="modal-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal fade" id="services4" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-md" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h3 class="modal-title">Social Media</h3>
-					</div>
-					<div class="modal-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="services">
-			<div class="container">
-				<div class="row">
-					<div class="item col-md-3 col-sm-3">
-						<h3><span class="icon"><img src="images/services_print.svg" alt="" /></span><strong>Print</strong></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<a href="#" data-toggle="modal" data-target="#services1"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Learn more</a>
-						<div class="clearfix"><!-- --></div>
-					</div>
-					<div class="item col-md-3 col-sm-3">
-						<h3><span class="icon"><img src="images/services_emailmarketing.svg" alt="" /></span><strong>E-mail Marketing</strong></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<a href="#" data-toggle="modal" data-target="#services2"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Learn more</a>
-						<div class="clearfix"><!-- --></div>
-					</div>
-					<div class="item col-md-3 col-sm-3">
-						<h3><span class="icon"><img src="images/services_advertising.svg" alt="" /></span><strong>Advertising</strong></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<a href="#" data-toggle="modal" data-target="#services3"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Learn more</a>
-						<div class="clearfix"><!-- --></div>
-					</div>
-					<div class="item ultimo col-md-3 col-sm-3">
-						<h3><span class="icon"><img src="images/services_socialmedia.svg" alt="" /></span><strong>Social Media</strong></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
-						<a href="#" data-toggle="modal" data-target="#services4"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Learn more</a>
-						<div class="clearfix"><!-- --></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Modal Portfolio -->
-		<div class="modal fade" id="work1" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h3 class="modal-title"><b>May/2015</b>DB-Beauty Services</h3>
-					</div>
-					<div class="modal-body">
-						<picture>
-							<source media="(max-width: 767px)" srcset="images/work1_2_medium.jpg" />
-							<source media="(min-width: 768px)" srcset="images/work1_2.jpg" />
-							<img src="images/work1_2.jpg" srcset="images/work1_2_medium.jpg 1x, images/work1_2.jpg 2x" class="img-responsive" alt="Flyer DB-Beauty Back" />
-						</picture>
-						<picture>
-							<source media="(max-width: 767px)" srcset="images/work1_medium.jpg" />
-							<source media="(min-width: 768px)" srcset="images/work1.jpg" />
-							<img src="images/work1.jpg" srcset="images/work1_medium.jpg 1x, images/work1.jpg 2x" class="img-responsive" alt="Flyer DB-Beauty Front" />
-						</picture>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal fade" id="work2" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h3 class="modal-title"><b>November/2014</b>Image+ Christmas</h3>
-					</div>
-					<div class="modal-body">
-						<picture>
-							<source media="(max-width: 767px)" srcset="images/work2_medium.jpg" />
-							<source media="(min-width: 768px)" srcset="images/work2.jpg" />
-							<img src="images/work2.jpg" srcset="images/work2_medium.jpg 1x, images/work2.jpg 2x" class="img-responsive" alt="Flyer Image+" />
-						</picture>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal fade" id="work3" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h3 class="modal-title"><b>July/2014</b>WTS Courses</h3>
-					</div>
-					<div class="modal-body">
-						<picture>
-							<source media="(max-width: 767px)" srcset="images/work3_medium.jpg" />
-							<source media="(min-width: 768px)" srcset="images/work3.jpg" />
-							<img src="images/work3.jpg" srcset="images/work3medium.jpg 1x, images/work3.jpg 2x" class="img-responsive" alt="Flyer WTS" />
-						</picture>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="work">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12"><h2>Featured Work</h2></div>
-				</div>
-				<div class="row">
-					<div class="portfolio col-md-4 col-sm-4">
-						<a href="#" data-toggle="modal" data-target="#work1">
-							<picture>
-								<source media="(max-width: 500px)" srcset="images/work1_small.jpg" />
-								<source media="(min-width: 501px)" srcset="images/work1_medium.jpg" />
-								<img src="images/work1_small.jpg"  srcset="images/work1_small.jpg 1x, images/work1.jpg 2x" class="img-responsive" alt="" />
-							</picture>
-							<h3><b>May/2015</b>DB-Beauty Services<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h3>
-						</a>
-					</div>
-					<div class="portfolio col-md-4 col-sm-4">
-						<a href="#" data-toggle="modal" data-target="#work2">
-							<picture>
-								<source media="(max-width: 500px)" srcset="images/work2_small.jpg" />
-								<source media="(min-width: 501px)" srcset="images/work2_medium.jpg" />
-								<img src="images/work2_small.jpg"  srcset="images/work2_small.jpg 1x, images/work2.jpg 2x" class="img-responsive" alt="" />
-							</picture>
-							<h3><b>November/2014</b>Image+ Christmas<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h3>
-						</a>
-					</div>
-					<div class="portfolio col-md-4 col-sm-4">
-						<a href="#" data-toggle="modal" data-target="#work3">
-							<picture>
-								<source media="(max-width: 500px)" srcset="images/work3_small.jpg" />
-								<source media="(min-width: 501px)" srcset="images/work3_medium.jpg" />
-								<img src="images/work3_small.jpg"  srcset="images/work3_small.jpg 1x, images/work3.jpg 2x" class="img-responsive" alt="" />
-							</picture>
-							<h3><b>July/2014</b>WTS Courses<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h3>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer>
+	</div>
+</header>
+<main>
+	<div class="banner">
 		<div class="container">
-			© Copyright 2006-2015 – All Rights Reserved.
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#">
+						<picture>
+							<source media="(max-width: 800px)" srcset="images/banner_image_medium.png" />
+							<img src="images/banner_image.png" srcset="images/banner_image_medium.png 1x, images/banner_image.png 2x" class="img-responsive center-block" alt="Last Project: Daniela Bueb" />
+						</picture>
+					</a>
+				</div>
+			</div>
 		</div>
-	</footer>
+	</div>
+	<!-- Modal Services -->
+	<div class="modal fade" id="services1" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title">Print</h3>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="services2" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title">E-mail Marketing</h3>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="services3" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title">Advertising</h3>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="services4" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title">Social Media</h3>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="services">
+		<div class="container">
+			<div class="row">
+				<div class="item col-md-3 col-sm-3">
+					<h3 class="title"><span class="icon"><img src="images/services_print.svg" alt="" /></span><strong>Print</strong></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<a href="#" data-toggle="modal" data-target="#services1" class="btn-more"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Learn more</a>
+					<div class="clearfix"><!-- --></div>
+				</div>
+				<div class="item col-md-3 col-sm-3">
+					<h3 class="title"><span class="icon"><img src="images/services_emailmarketing.svg" alt="" /></span><strong>E-mail Marketing</strong></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<a href="#" data-toggle="modal" data-target="#services2" class="btn-more"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Learn more</a>
+					<div class="clearfix"><!-- --></div>
+				</div>
+				<div class="item col-md-3 col-sm-3">
+					<h3 class="title"><span class="icon"><img src="images/services_advertising.svg" alt="" /></span><strong>Advertising</strong></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<a href="#" data-toggle="modal" data-target="#services3" class="btn-more"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Learn more</a>
+					<div class="clearfix"><!-- --></div>
+				</div>
+				<div class="item col-md-3 col-sm-3">
+					<h3 class="title"><span class="icon"><img src="images/services_socialmedia.svg" alt="" /></span><strong>Social Media</strong></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.</p>
+					<a href="#" data-toggle="modal" data-target="#services4" class="btn-more"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Learn more</a>
+					<div class="clearfix"><!-- --></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Portfolio -->
+	<div class="modal fade" id="work1" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="title"><b>May/2015</b>DB-Beauty Services</h3>
+				</div>
+				<div class="modal-body">
+					<picture>
+						<source media="(max-width: 767px)" srcset="images/work1_2_medium.jpg" />
+						<source media="(min-width: 768px)" srcset="images/work1_2.jpg" />
+						<img src="images/work1_2.jpg" srcset="images/work1_2_medium.jpg 1x, images/work1_2.jpg 2x" class="img-responsive" alt="Flyer DB-Beauty Back" />
+					</picture>
+					<picture>
+						<source media="(max-width: 767px)" srcset="images/work1_medium.jpg" />
+						<source media="(min-width: 768px)" srcset="images/work1.jpg" />
+						<img src="images/work1.jpg" srcset="images/work1_medium.jpg 1x, images/work1.jpg 2x" class="img-responsive" alt="Flyer DB-Beauty Front" />
+					</picture>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="work2" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="title"><b>November/2014</b>Image+ Christmas</h3>
+				</div>
+				<div class="modal-body">
+					<picture>
+						<source media="(max-width: 767px)" srcset="images/work2_medium.jpg" />
+						<source media="(min-width: 768px)" srcset="images/work2.jpg" />
+						<img src="images/work2.jpg" srcset="images/work2_medium.jpg 1x, images/work2.jpg 2x" class="img-responsive" alt="Flyer Image+" />
+					</picture>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="work3" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="title"><b>July/2014</b>WTS Courses</h3>
+				</div>
+				<div class="modal-body">
+					<picture>
+						<source media="(max-width: 767px)" srcset="images/work3_medium.jpg" />
+						<source media="(min-width: 768px)" srcset="images/work3.jpg" />
+						<img src="images/work3.jpg" srcset="images/work3medium.jpg 1x, images/work3.jpg 2x" class="img-responsive" alt="Flyer WTS" />
+					</picture>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12"><h2>Featured Work</h2></div>
+			</div>
+			<div class="row">
+				<div class="item col-md-4 col-sm-4">
+					<a href="#" data-toggle="modal" data-target="#work1" class="box-item">
+						<picture>
+							<source media="(max-width: 500px)" srcset="images/work1_small.jpg" />
+							<source media="(min-width: 501px)" srcset="images/work1_medium.jpg" />
+							<img src="images/work1_small.jpg"  srcset="images/work1_small.jpg 1x, images/work1.jpg 2x" class="img-responsive" alt="" />
+						</picture>
+						<h3 class="title"><b>May/2015</b>DB-Beauty Services<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h3>
+					</a>
+				</div>
+				<div class="item col-md-4 col-sm-4">
+					<a href="#" data-toggle="modal" data-target="#work2" class="box-item">
+						<picture>
+							<source media="(max-width: 500px)" srcset="images/work2_small.jpg" />
+							<source media="(min-width: 501px)" srcset="images/work2_medium.jpg" />
+							<img src="images/work2_small.jpg"  srcset="images/work2_small.jpg 1x, images/work2.jpg 2x" class="img-responsive" alt="" />
+						</picture>
+						<h3 class="title"><b>November/2014</b>Image+ Christmas<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h3>
+					</a>
+				</div>
+				<div class="item col-md-4 col-sm-4">
+					<a href="#" data-toggle="modal" data-target="#work3" class="box-item">
+						<picture>
+							<source media="(max-width: 500px)" srcset="images/work3_small.jpg" />
+							<source media="(min-width: 501px)" srcset="images/work3_medium.jpg" />
+							<img src="images/work3_small.jpg"  srcset="images/work3_small.jpg 1x, images/work3.jpg 2x" class="img-responsive" alt="" />
+						</picture>
+						<h3 class="title"><b>July/2014</b>WTS Courses<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h3>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<footer>
+	<div class="container">
+		© Copyright 2006-2015 – All Rights Reserved.
+	</div>
+</footer>
 </body>
 </html>
