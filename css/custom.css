@@ -23,7 +23,7 @@ header img.brand {
 	margin: 85px 0 40px 0;
 }
 
-a.nav-link {
+.nav-link {
 	color: #000;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -35,26 +35,26 @@ a.nav-link {
 	margin: 0 15px 0 15px;
 }
 
-.active a.nav-link,
-a.nav-link:focus,
-a.nav-link:hover {
+.active .nav-link,
+.nav-link:focus,
+.nav-link:hover {
 	color: #e6001c !important;
 	border-top: 6px solid #e6001c !important;
 }
 
-a.nav-link:hover span,
-a.nav-link:focus span {
+.nav-link:hover span,
+.nav-link:focus span {
 	color: #000 !important;
 }
 
-a.dropdown-toggle .glyphicon {
+.dropdown-toggle .glyphicon {
 	font-size: 10px;
 	color: #000;
 }
 
-a.subnav-link,
-a:hover.subnav-link,
-a:focus.subnav-link {
+.subnav-link,
+.subnav-link:hover,
+.subnav-link:focus {
 	color: #000;
 	text-transform: uppercase;
 	font-weight: normal;
@@ -63,7 +63,7 @@ a:focus.subnav-link {
 	border: 0 !important;
 }
 
-a:hover.subnav-link {
+.subnav-link:hover {
 	color: #e6001c !important;
 	background-image: none !important;
 	background-color: transparent !important;
