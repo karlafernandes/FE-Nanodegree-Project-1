@@ -20,74 +20,53 @@ header img.brand {
 
 /* Nav */
 .nav {
-	margin: 60px 0 0 0;
+	margin: 85px 0 40px 0;
 }
 
-.nav > li {
-	border-top: 6px solid transparent;
-	margin: 0 25px 0 0;
-	padding: 10px;
-}
-
-.nav > li > a,
-.nav > li > a:hover {
+a.nav-link {
 	color: #000;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 16px;
-	background-color: transparent;
-	padding: 0;
+	background-color: transparent !important;
+	padding: 10px 5px 0 5px !important;
+	border-top: 6px solid #fff !important;
+	border-radius: 0 !important;
+	margin: 0 15px 0 15px;
 }
 
-.nav > li > a:hover {
-	color: #e6001c;
+.active a.nav-link,
+a.nav-link:focus,
+a.nav-link:hover {
+	color: #e6001c !important;
+	border-top: 6px solid #e6001c !important;
 }
 
-.nav > li:hover,
-.nav > li.active {
-	border-top: 6px solid #e6001c;
-	color: #e6001c;
-	background-color: transparent;
-}
-
-.nav > li.active > a:hover,
-.nav > li.active > a {
-	color: #e6001c;
-	background-color: transparent;
+a.nav-link:hover span,
+a.nav-link:focus span {
+	color: #000 !important;
 }
 
 a.dropdown-toggle .glyphicon {
 	font-size: 10px;
-	color: #000 !important;
+	color: #000;
 }
 
-.nav > li > a:hover,
-.nav > li > a:focus,
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus,
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-	background-color: transparent;
-}
-
-.dropdown-menu > li > a,
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus,
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-	padding: 5px 10px 2px 10px;
-	border: 0;
+a.subnav-link,
+a:hover.subnav-link,
+a:focus.subnav-link {
+	color: #000;
+	text-transform: uppercase;
 	font-weight: normal;
-	text-transform: none;
-	background-color: transparent;
+	font-size: 16px;
+	padding: 2px 10px 2px 10px !important;
+	border: 0 !important;
 }
 
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-	color: #e6001c;
+a:hover.subnav-link {
+	color: #e6001c !important;
 	background-image: none !important;
+	background-color: transparent !important;
 }
 
 /* Menu mobile */
@@ -258,6 +237,15 @@ footer {
 footer .container {
 	padding: 20px;
 	color: #fff;
+}
+
+/* Medium Screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	.nav {
+		margin: 65px 0 40px 0;
+	}
+
 }
 
 /* Small Screens */
