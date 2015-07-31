@@ -182,19 +182,19 @@ h3.title  {
 }
 
 /* Services */
-#services {
+.services-section {
 	background-color: #e6001c;
 }
 
-#services .row {
+.services-section .row {
 	margin: 60px auto auto auto;
 }
 
-#services p {
+.services-section p {
 	color: #fff;
 }
 
-#services h3.title {
+.services-section h3.title {
 	color: #000;
 	margin: 0 0 10px 0;
 	padding: 0;
@@ -202,25 +202,25 @@ h3.title  {
 }
 
 /* Work */
-#work .container {
+.work-section .container {
 	margin: 60px auto auto auto;
 }
 
-#work .portfolio {
+.work-section .portfolio {
 	margin: auto auto 50px auto;
 }
 
-#work .box-item,
-#work .box-item:hover,
-#work .box-item:focus {
+.work-section .box-item,
+.work-section .box-item:hover,
+.work-section .box-item:focus {
 	padding: 0;
 	margin: 0 0 20px 0;
 	text-decoration: none;
 	display:block;
 }
 
-#work .box-item:hover,
-#work .box-item:focus {
+.work-section .box-item:hover,
+.work-section .box-item:focus {
 	background-color: #ededed;
 }
 
@@ -322,21 +322,21 @@ footer .container {
 		border-bottom: 1px solid #333 !important;
 	}
 
-	#services .row {
+	.services-section .row {
 		margin: 40px 0 0px 0;
 	}
 
-	#services .item {
+	.services-section .item {
 		padding: 0 0 15px 0;
 		border-bottom: 1px dashed #000;
 	}
 
-	#services .item:last-of-type {
+	.services-section .item:last-of-type {
 		border-bottom: 0 !important;
 		padding: 0;
 	}
 
-	#work h3.title {
+	.work-section h3.title {
 		border-bottom: 1px dashed #dedede;
 	}
 
