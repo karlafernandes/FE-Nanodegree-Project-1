@@ -1,1 +1,0 @@
-I did exchange the structure from HTML + CSS trying to let behind the old way to create CSS. :) 
